@@ -14,10 +14,10 @@ for (let loopTracker = 0; loopTracker < 5; loopTracker += 1) {
     const currentBand = bands[loopTracker];
 
     // Update the innerHTML value of the DOM element for bands
-    document.getElementById("boy-band").innerHTML = currentBand()
+    bandElement.innerHTML = currentBand;
     // Get a reference to the current item in the vegetables array
     const currentVeggie = vegetables[loopTracker];
 
     // Update the innerHTML value of the DOM element for vegetables
-    document.getElementById("vegetables").innerHTML = currentVeggie(" ")
+    veggieElement.innerHTML = currentVeggie;
 }
